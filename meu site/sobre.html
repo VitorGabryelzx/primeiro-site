@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>sobre</title>
+    
+</head>
+<body>
+    <header class="header1">
+        <h1>
+        TECKCOM
+        </h1>
+
+    </header>
+    <p class="space">
+        <border>
+        <a class="btnlink" href="index.html" target="_blank">inicio</a>
+        <a class="btnlink" href="videogames.html" target="_blank">videogames</a>
+        <a class="btnlink" href="computadores.html" target="_blank">computadores</a>
+        <a class="btnlink" href="smartphones.html" target="_blank">celulares</a>
+        <a class="btnlink" href="sobre.html" target="_blank">sobre</a>
+        </border>
+    <p>
+        <h1 class="margin1">
+            sobre
+        </h1>
+    </p>
+    </p>
+    <div class="tam">
+       <img src="imagens/assistente.jpg" height="300" width="500">
+        <p class="p2"><h2>somos uma empresa qualificada, nosso foco é 100% nos nossos usuarios.aqui temos do bom e do melhor e naquele preço</h2></p>
+    </div>
+    <br>
+    <p>
+        <form class="formtam">
+        <label for="nome"><h3>Nome:</h3></label>
+        <input type="text" id="nome" size="70%" maxlength="60">
+    
+        <label for="Email"><h3>Endereço de email:</h3></label>
+        <input type="email" id="Email" size="70%" maxlength="60" >
+    
+        <label for="CPF"><h3>CPF:</h3></label>
+        <input type="text" id="CPF" size="70%" maxlength="20" >
+        
+        <label for=""><h3>Numero:</h3></label>
+        <input type="numero" id="Numero" size="70%" maxlength="20">
+
+        <h3>
+        em que podemos melhorar a nossa loja
+        </h3>
+            <select name="escolha">   
+               <option>design
+               <option>codigos da pagina
+               <option>os prdutos
+               <option>a nossa forma de atendimento           
+            </select>
+    <br>
+        <label for="textAreamensagem"><h3>Mensagem:</h3></label>
+        <textarea class="tamnahomsg" name="textAreamensagem" id="textAreamensagem" cols="30" rows="15"></textarea>
+        <br>
+        <button>
+            ENVIAR MENSAGEM
+        </button>
+        </form>
+
+        <script>
+            function cadastrar(){
+                var nome = document.getElementById("nome");
+                var Email = document.getElementById("Email");
+                var CPF = document.getElementById("CPF");
+                var numero = document.getElementById("numero");
+                var Mensagem = document.getElementById("Mensagem");
+
+                var dados = JSON.parse(localStorage.getItem(dadoscadastrar))
+
+                if(dados== null){
+                    localstorage.setItem("dadoscadastrar", "[]");
+                    dados = [];
+                }
+
+                var auxRegistro = {
+                    nome: nome.value,
+                    email: Email.value,
+                    CPF: CPF.value,
+                    numero: numero.value,
+                    Mensagem: Mensagem.value,
+                }
+
+                localStorage.setItem("dadoscadastrar", JSON.stringify(dados))
+                alert("registro incluido com sucesso!")
+
+                nome.value = "";
+                Email.value = "";
+                CPF.value = "";
+                Numero.value = "";
+                Mensagem.value = "";
+
+            }
+        </script>
+    </p>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <footer>
+        <div>
+            <p><strong>Loja:</strong>TECKCOM</p>
+            <p><strong>Endereço:bairro Sao Paulo</strong></p>
+            <p><strong>Rua:</strong>4</p>
+            <p><strong>Telefone:</strong>(86)4002-8922</p>
+            <p>nome:Vitor Gabriel Costa Silva</p>
+        </div>
+    </footer>
+    
+</body>
+</html>
