@@ -1,112 +1,110 @@
-html, body {
-    margin:0 ;
-    padding:0 ;
+html,
+body {
+    margin: 0;
+    padding: 0;
     background-color: rgb(174, 184, 180);
 }
-.container2{
+.container2 {
     align-items: center;
     display: flex;
     margin-left: 300px;
 }
 
-
-.img1{
-    width:70px ;
-    margin-right:20px ;
+.img1 {
+    width: 71px;
+    margin-right: 20px;
 }
-.img2{
+.img2 {
     text-align: center;
 }
-.c23{
+.c23 {
     color: red;
 }
-.img23{
-    padding: 0px 40px  ;
+.img23 {
+    padding: 0px 40px;
 }
-.img12{
-    padding: 0px 40px ;
+.img12 {
+    padding: 0px 40px;
 }
 
-header{
+header {
     color: rgba(63, 65, 66, 0.993);
     background-color: rgb(255, 255, 255);
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     height: 12vh;
-    width:100% ;
+    width: 100%;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-footer{
+footer {
     color: rgb(255, 255, 255);
     background-color: rgb(46, 9, 209);
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
     height: 25vh;
-    width:100% ;
+    width: 100%;
     justify-content: center;
     align-items: center;
     line-height: 3px;
 }
-.space{
+.space {
     margin: 0;
     font-size: 28px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     color: aliceblue;
     background-color: rgb(21, 24, 168);
-    border: 4px solid rgb(23, 20, 170) ;
+    border: 4px solid rgb(23, 20, 170);
     text-align: center;
-    word-spacing: 45px ;
+    word-spacing: 45px;
 }
-.btnlink{
+.btnlink {
     text-decoration: solid;
     color: aliceblue;
 }
-.ct1{
+.ct1 {
     text-align: center;
 }
-.container{
+.container {
     align-items: center;
     display: flex;
     margin-left: 80px;
 }
-.p1{
-    margin-left: 94px;
-    color: black;
-} 
-.p2{
+.p1 {
     margin-left: 94px;
     color: black;
 }
-.P3{
+.p2 {
     margin-left: 94px;
     color: black;
-    font-size: 50PX;
-} 
-
-
-.spacing1{
-    margin-bottom:240px ;
 }
-.margin1{
-    margin-left:50px ;
+.P3 {
+    margin-left: 94px;
+    color: black;
+    font-size: 50px;
+}
+
+.spacing1 {
+    margin-bottom: 240px;
+}
+.margin1 {
+    margin-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.tam{
+.tam {
     margin-left: 50px;
-    align-items: center ;
+    align-items: center;
     display: flex;
     padding: 25px;
-
 }
-.formtam{
-    padding-left: 90px ;
+.formtam {
+    padding-left: 90px;
 }
-.tamnahomsg{
-    width: 50% ;
+.tamnahomsg {
+    width: 50%;
 }
-.time{
+.time {
     color: rgb(61, 19, 212);
 }
